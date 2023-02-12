@@ -13,7 +13,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="grid place-items-center h-screen">
-        <h1 className="text-8xl text-secondary">Site in BETA</h1>
+        <div className="p-8 border border-secondary text-secondary text-center relative">
+          <h1 className="text-4xl md:text-6xl">Work In Progress</h1>
+          <h2 className="absolute -bottom-2.5 bg-primary px-6 left-1/2 -translate-x-1/2">
+            Be Right Back!
+          </h2>
+        </div>
       </main>
     </>
   );
