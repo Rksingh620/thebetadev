@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
+import BottomNav from "@/Components/BottomNav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function Home() {
             Be Right Back!
           </h2>
         </div>
+        <BottomNav />
       </main>
     </>
   );
